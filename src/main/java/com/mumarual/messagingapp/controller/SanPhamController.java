@@ -23,6 +23,6 @@ public class SanPhamController {
                                  @RequestBody Product product) {
         messagingTemplate.convertAndSend("/socket/topic/update/product", product);
         return product;
-
     }
+
 }
