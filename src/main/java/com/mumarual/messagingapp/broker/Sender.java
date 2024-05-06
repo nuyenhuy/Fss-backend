@@ -1,7 +1,7 @@
 package com.mumarual.messagingapp.broker;
 
 import com.mumarual.messagingapp.message.ChatMessage;
-import com.mumarual.messagingapp.message.Message;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class Sender {
 
     private final KafkaTemplate<String, ChatMessage> kafkaTemplate;
-
+    @Autowired
     public Sender(KafkaTemplate<String, ChatMessage> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
