@@ -1,6 +1,6 @@
 package com.mumarual.messagingapp.controller;
 import com.mumarual.messagingapp.broker.Sender;
-import com.mumarual.messagingapp.message.ChatMessage;
+import com.mumarual.messagingapp.model.ChatMessage;
 import com.mumarual.messagingapp.network.Topics;
 import com.mumarual.messagingapp.util.CompareUtil;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -25,7 +25,7 @@ public class ChatController {
     @MessageMapping("/chat.sendMessage")
     @SendTo(Topics.CHAT_PUBLIC)
     public ChatMessage sendMessage(@Payload ChatMessage chatMessage) {
-        sender.send(Topics.CHAT_PUBLIC, chatMessage);
+//        sender.send(Topics.CHAT_PUBLIC, chatMessage);
         System.out.println(chatMessage);
         return chatMessage;
     }

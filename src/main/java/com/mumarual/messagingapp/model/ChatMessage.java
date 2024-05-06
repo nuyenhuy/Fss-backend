@@ -1,4 +1,4 @@
-package com.mumarual.messagingapp.message;
+package com.mumarual.messagingapp.model;
 
 public class ChatMessage extends SocketData {
     private ActionType type;

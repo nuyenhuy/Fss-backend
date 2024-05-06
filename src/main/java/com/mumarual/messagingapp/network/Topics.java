@@ -21,4 +21,8 @@ public class Topics {
 
     public static final String SYMBOL_TOPIC = SOCKET_TOPIC + "/sec.%s";
     public static final String GUEST_TOPIC = SOCKET_TOPIC + "/guest.%s";
+
+    // Topic for update realtime product
+    public static final String UPDATE_PRODUCT_TOPIC = SOCKET_TOPIC + "/update/product";
+
 }

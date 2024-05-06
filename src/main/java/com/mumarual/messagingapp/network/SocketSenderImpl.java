@@ -1,5 +1,5 @@
 package com.mumarual.messagingapp.network;
-import com.mumarual.messagingapp.message.SocketData;
+import com.mumarual.messagingapp.model.SocketData;
 import com.mumarual.messagingapp.util.CompareUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;

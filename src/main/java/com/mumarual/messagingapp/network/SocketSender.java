@@ -1,6 +1,6 @@
 package com.mumarual.messagingapp.network;
 
-import com.mumarual.messagingapp.message.SocketData;
+import com.mumarual.messagingapp.model.SocketData;
 
 public interface SocketSender {
     //send by recTopic

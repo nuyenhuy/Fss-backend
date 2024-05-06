@@ -1,6 +1,5 @@
 package com.mumarual.messagingapp.broker;
-import com.mumarual.messagingapp.controller.ChatController;
-import com.mumarual.messagingapp.message.Message;
+import com.mumarual.messagingapp.model.Message;
 import com.mumarual.messagingapp.network.Topics;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

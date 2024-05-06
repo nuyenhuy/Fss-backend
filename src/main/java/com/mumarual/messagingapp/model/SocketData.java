@@ -1,4 +1,4 @@
-package com.mumarual.messagingapp.message;
+package com.mumarual.messagingapp.model;
 
 import java.io.Serializable;
 

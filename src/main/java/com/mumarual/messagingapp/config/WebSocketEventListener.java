@@ -1,6 +1,6 @@
 package com.mumarual.messagingapp.config;
 
-import com.mumarual.messagingapp.message.ChatMessage;
+import com.mumarual.messagingapp.model.ChatMessage;
 import com.mumarual.messagingapp.network.SocketSender;
 import com.mumarual.messagingapp.network.Topics;
 import com.mumarual.messagingapp.util.CompareUtil;

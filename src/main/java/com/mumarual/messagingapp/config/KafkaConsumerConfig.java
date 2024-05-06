@@ -1,6 +1,6 @@
 package com.mumarual.messagingapp.config;
 
-import com.mumarual.messagingapp.message.Message;
+import com.mumarual.messagingapp.model.Message;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;

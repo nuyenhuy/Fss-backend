@@ -1,7 +1,6 @@
 package com.mumarual.messagingapp.controller;
 
-import com.mumarual.messagingapp.message.ChatMessage;
-import com.mumarual.messagingapp.message.Message;
+import com.mumarual.messagingapp.model.ChatMessage;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
