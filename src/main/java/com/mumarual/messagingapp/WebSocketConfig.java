@@ -1,4 +1,4 @@
-package com.mumarual.messagingapp.config;
+package com.mumarual.messagingapp;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

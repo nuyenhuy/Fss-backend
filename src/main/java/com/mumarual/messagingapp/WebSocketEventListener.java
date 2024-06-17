@@ -1,4 +1,4 @@
-package com.mumarual.messagingapp.config;
+package com.mumarual.messagingapp;
 
 import com.mumarual.messagingapp.model.ChatMessage;
 import com.mumarual.messagingapp.network.SocketSender;

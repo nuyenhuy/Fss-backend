@@ -24,5 +24,8 @@ public class Topics {
 
     // Topic for update realtime product
     public static final String UPDATE_PRODUCT_TOPIC = SOCKET_TOPIC + "/update/product";
+    // Topic for testing kafka
+    public static final String TOPIC_TEST_CONSUMER_STRING = "Test";
+
 
 }

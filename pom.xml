@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mumarual</groupId>
-    <artifactId>messaging-app</artifactId>
+    <artifactId>worker-realtime</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>messaging-app</name>
     <description>messaging-app</description>
